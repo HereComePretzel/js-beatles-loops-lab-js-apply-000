@@ -18,10 +18,11 @@ function johnLennonFacts(nerdAlert) {
     'He hated the sound of his own voice'];
   var i = 0;
   var updatedFacts = [];
-    while (i < facts.length)
+    while (i < facts.length) {
       updatedFacts.push(facts[i] + '!!!');
       i++;
     }
+    return updatedFacts;
 }
 
 function iLoveTheBeatles(n) {
