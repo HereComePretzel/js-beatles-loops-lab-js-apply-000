@@ -22,7 +22,6 @@ function johnLennonFacts(nerdAlert) {
       updatedFacts.push(facts[i] + '!!!');
       i++;
     }
-    return updatedFacts;
 }
 
 function iLoveTheBeatles(n) {
